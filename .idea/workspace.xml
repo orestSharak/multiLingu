@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f342a91-9ea4-46f5-bcf3-71e589c4569f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1f342a91-9ea4-46f5-bcf3-71e589c4569f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -72,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -80,6 +78,16 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/API/datas.js" />
         <option value="$PROJECT_DIR$/src/components/News.js" />
         <option value="$PROJECT_DIR$/src/API/pl/datas.js" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
       </list>
     </option>
   </component>
@@ -229,12 +238,12 @@
       <workItem from="1529598090387" duration="650000" />
       <workItem from="1529845408450" duration="204000" />
       <workItem from="1529846044364" duration="3760000" />
-      <workItem from="1529849932801" duration="965000" />
+      <workItem from="1529849932801" duration="1456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26436000" />
+    <option name="totallyTimeSpent" value="26927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="738" extended-state="0" />
@@ -476,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../multilingual-react/src/index.js" />
     <entry file="file://$PROJECT_DIR$/../multilingual-react/src/Home.js" />
     <entry file="file://$PROJECT_DIR$/../multilingual-react/src/App.js" />
@@ -570,7 +572,7 @@
         <state relative-caret-position="238">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,6 +645,14 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
