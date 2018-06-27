@@ -7,13 +7,16 @@ import {flattenMessages} from "./utils"
 import App from './App';
 import messages from './API/messages';
 import './index.css';
+import * as queryString from 'query-string';
 
 
 addLocaleData([...en, ...pl]);
 
 
-let locale =
-    'pl-PL'
+const parsedSearch = queryString.parse(window.location.search)
+const { lang } = parsedSearch
+let locale = lang
+    || 'pl-PL'
     || (navigator.languages && navigator.languages[0])
     || navigator.language
     || navigator.userLanguage;
@@ -31,12 +34,16 @@ class Container extends React.Component {
     }
 
     changeLocale(locale) {
+        parsedSearch.lang = locale
+        window.location.search = queryString.stringify(parsedSearch)
         this.setState({'locale': locale})
     }
 
     render() {
+        const { locale } = this.state
+
         return (
-            <IntlProvider locale={this.state.locale} messages={flattenMessages(messages[this.state.locale])}>
+            <IntlProvider locale={locale} messages={flattenMessages(messages[locale])}>
                 <App changeLocale={this.changeLocale}/>
             </IntlProvider>
         )

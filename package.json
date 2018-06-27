@@ -7,6 +7,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "query-string": "^6.1.0",
     "react-headroom": "^2.2.2"
   },
   "devDependencies": {
